@@ -13,12 +13,12 @@ class TypeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_type)
 
         buttonShortSkirt.setOnClickListener {
-            val intent = Intent(this, CasualActivity::class.java)
+            val intent = Intent(this, ShortActivity::class.java)
             startActivity(intent)
         }
 
-        buttonDating.setOnClickListener {
-            val intent = Intent(this, DatingActivity::class.java)
+        buttonLongSkirt.setOnClickListener {
+            val intent = Intent(this, LongActivity::class.java)
             startActivity(intent)
         }
 
